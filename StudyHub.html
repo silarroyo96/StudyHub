@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>StudyHub</title>
+    <link rel="icon" type="image/x-icon" href="TotalLogo.png">
+</head>
+<body>
+    <header class="top-navbar">
+        <a href="StudyHub.html">
+            <img src="TotalLogo.png" alt="Logo" class="logo">
+          </a>
+    <h1 class="page-title">StudyHub</h1>
+    <h2 class="page-subtitle">The home of the knowledge</h2>
+    <h3 class="my-profile">Silvia Arroyo</h3>
+    </header>
+
+<main>
+    <section class="introduction">
+        <h2 class="section-title">Welcome to my web page</h2>
+        <p class="section-description">
+            Hi! My name is Silvia Arroyo an I'm science computer teacher. I'm really keen on teaching and helping my students to achieve their objectives.
+        </p>
+        <p class="section-description">
+            In this web page I will post all my classes and lessons.
+        </p>
+      </section>
+    <section class="classes">
+        <h2 class="section-title">Classes</h2>
+  
+        <div class="class-item animated">
+          <a href="DBH4.html" class="class-link">
+            <img src="code.png" alt="Logo DBH4" class="class-logo">
+            <span>DBH4</span>
+          </a>
+        </div>
+  
+        <div class="class-item animated">
+          <a href="BACH1.html" class="class-link">
+            <img src="code.png" alt="Logo 1º de Bachiller" class="class-logo">
+            <span>1º de Bachiller</span>
+          </a>
+        </div>
+  
+        <div class="class-item animated">
+          <a href="BACH2.html" class="class-link">
+            <img src="code.png" alt="Logo 2º de Bachiller" class="class-logo">
+            <span>2º de Bachiller</span>
+          </a>
+        </div>
+
+        <div class="class-item2 animated">
+            <a href="others.html" class="class-link">
+              <img src="TotalLogo.png" alt="Logo Others" class="class-logo">
+              <span>Others</span>
+            </a>
+          </div>
+    </section>
+        
+</main>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var animatedItems = document.querySelectorAll('.animated');
+  
+      for (var i = 0; i < animatedItems.length; i++) {
+        animatedItems[i].style.setProperty('--order', i);
+      }
+    });
+  </script>
+  
+</body>
+</html>
+
+</body>
+</html>
